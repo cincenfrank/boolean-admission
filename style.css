@@ -1,0 +1,76 @@
+body{
+    background-image: url("background.jpg");
+    background-size:cover;
+    color: white;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 60%;
+    height: 100%;
+    margin: 20px auto auto auto;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+header{
+    text-align: center;
+}
+
+header > img{
+    width: 200px;
+}
+
+header > h1{
+    font-size: 40px;
+    color: #00DD00;
+    margin: 0 0 5px 0;
+}
+
+nav{
+    background-color: #00DD00;
+    text-align: center;
+    padding: 15px;
+}
+
+.square:after{
+    content: "\25FC";
+}
+
+.arrow:after{
+    content: "\21E5";
+}
+
+.kick-scooter h2{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.kick-scooter .address, .kick-scooter .charge{ 
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.charge-bar{
+    height: 30px;
+    border-radius: 5px ;
+    margin-top: 5px;
+}
+
+.charge-bar.medium{
+    background-color: orange;
+    width: 30%;
+}
+.charge-bar.high{
+    background-color: #00DD00;
+    width: 60%;
+}
+.charge-bar.low{
+    background-color: red;
+    width: 15%;
+}
+
+*{
+    box-sizing: content-box;
+    font-family: 'Roboto', sans-serif;
+}
